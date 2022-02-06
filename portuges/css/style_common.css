@@ -1,0 +1,80 @@
+.view { 
+    float: left;
+    width: 390px;
+    height: 473px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background: rgba(255,200,0,1);
+    background: -moz-linear-gradient(top, rgba(255,200,0,1) 0%, rgba(255,10,10,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,200,0,1)), color-stop(100%, rgba(255,10,10,1)));
+    background: -webkit-linear-gradient(top, rgba(255,200,0,1) 0%, rgba(255,10,10,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,200,0,1) 0%, rgba(255,10,10,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,200,0,1) 0%, rgba(255,10,10,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,200,0,1) 0%, rgba(255,10,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc800', endColorstr='#ff0a0a', GradientType=0 );
+    cursor: default;  
+}
+
+.view .mask,.view .content {
+    width: 100%;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+    padding-top: 20px; 
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.view img {
+    display: block;
+    position: relative;
+    align-content: center;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+}
+.view p {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+    line-height: 22px;
+    padding: 20px 20px 5px;
+    text-align: center;
+}
+
+.view span {
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+}
+
+.view a.info {
+    text-decoration: none;
+    padding: 7px 14px;
+    margin-top:0px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000;
+}
+.view a.info: hover {
+    -webkit-box-shadow: 0 0 5px #000;
+    -moz-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+}
